@@ -13,7 +13,7 @@ jobs:
         run: sudo apt-get install zip
       - name: Create archive
         run: |
-          zip -r ../Ultra.4IFIR.zip /Ultra 4IFIR
+          zip -r ../Ultra.4IFIR.zip /"Ultra 4IFIR"
   
       - name: Create Release
         id: create_release
